@@ -1,7 +1,6 @@
 var input = 277678;
 var i = 1;
 var step = 0;
-var iterator = 0;
 
 var container = [];
 
@@ -22,7 +21,6 @@ while (i <= input) {
 
 while (container[step].length < step) {
     container[step].push(i);
-    iterator++;
     i++;
 }
 
